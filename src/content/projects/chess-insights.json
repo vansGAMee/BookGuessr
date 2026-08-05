@@ -1,0 +1,62 @@
+{
+  "slug": "chess-insights",
+  "title": {
+    "ru": "Chess Insights",
+    "en": "Chess Insights"
+  },
+  "kicker": {
+    "ru": "Личная аналитика аккаунта",
+    "en": "Personal Account Analytics"
+  },
+  "summary": {
+    "ru": "Обновляемая страница с полной статистикой моего шахматного аккаунта и 20 метриками.",
+    "en": "An updating dashboard with full statistics for my chess account across 20 metrics."
+  },
+  "description": {
+    "ru": "Интерактивная персональная аналитика авторского профиля с постоянной синхронизацией данных, разбором дебютных веток и динамикой шахматного рейтинга.",
+    "en": "Interactive personal analytics for author profile with continuous data updates, opening tree breakdowns, and rating progression."
+  },
+  "status": "live",
+  "presentation": "data",
+  "year": 2025,
+  "order": 4,
+  "featured": true,
+  "published": true,
+  "showLive": true,
+  "liveMode": "full",
+  "liveUrl": "https://vansgamee.github.io/chess-insights/",
+  "repoUrl": "https://github.com/vansGAMee/MQ-Chess",
+  "captureLive": true,
+  "relatedProjects": ["mq-chess-profile-analyzer"],
+  "stack": ["JavaScript", "HTML5", "CSS3", "GitHub Pages", "Data Visualization"],
+  "role": {
+    "ru": "Разработчик и автор метрики",
+    "en": "Developer & Metric Author"
+  },
+  "media": [
+    {
+      "type": "image",
+      "src": "/projects/chess-insights/desktop.png",
+      "alt": {
+        "ru": "Дашборд аналитики Chess Insights",
+        "en": "Chess Insights analytics view"
+      },
+      "aspectRatio": "16/10"
+    }
+  ],
+  "proof": {
+    "facts": {
+      "ru": [
+        "Прямая интерактивная публикация личной статистики автора на GitHub Pages",
+        "Расчет более 20 ключевых шахматных метрик и стабильности решений",
+        "Связь с базовым алгоритмом расчета рейтинга MQ-Chess"
+      ],
+      "en": [
+        "Direct interactive publication of author's personal statistics via GitHub Pages",
+        "Calculation of over 20 key chess metrics and positional stability",
+        "Connection to core MQ-Chess calculation algorithm"
+      ]
+    }
+  },
+  "accent": "#059669"
+}

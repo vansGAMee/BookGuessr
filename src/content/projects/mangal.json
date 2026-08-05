@@ -1,0 +1,48 @@
+{
+  "slug": "mangal",
+  "title": {
+    "ru": "Mangal Constructor Updated",
+    "en": "Mangal Constructor Updated"
+  },
+  "kicker": {
+    "ru": "Тест",
+    "en": "Test"
+  },
+  "summary": {
+    "ru": "Описание",
+    "en": "Summary"
+  },
+  "description": {
+    "ru": "Подробно",
+    "en": "Detailed"
+  },
+  "status": "in-development",
+  "presentation": "dashboard",
+  "order": 2,
+  "featured": true,
+  "published": true,
+  "showLive": false,
+  "stack": [
+    "React"
+  ],
+  "media": [
+    {
+      "type": "image",
+      "src": "/projects/mangal/mangal-1785923226191-a2236fb4.png",
+      "alt": {
+        "ru": "Скриншот Снимок экрана 2026-08-05 133430.png",
+        "en": "Screenshot Снимок экрана 2026-08-05 133430.png"
+      }
+    }
+  ],
+  "proof": {
+    "facts": {
+      "ru": [
+        "Факт"
+      ],
+      "en": [
+        "Fact"
+      ]
+    }
+  }
+}

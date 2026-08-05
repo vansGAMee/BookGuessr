@@ -1,19 +1,38 @@
 {
-  "name": "temp_app",
-  "version": "0.1.0",
+  "name": "vansgamee-portfolio",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "studio": "cross-env PORTFOLIO_STUDIO=1 next dev",
+    "prebuild": "pnpm media:check",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "project:add": "tsx src/scripts/add-project.ts",
+    "capture:projects": "tsx src/scripts/capture-projects.ts",
+    "media:optimize": "tsx src/scripts/optimize-project-media.ts",
+    "media:check": "tsx src/scripts/check-media.ts"
   },
   "dependencies": {
+    "@clack/prompts": "^1.7.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "cross-env": "^10.1.0",
+    "lucide-react": "^1.28.0",
+    "motion": "^12.43.0",
     "next": "16.3.0",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "sharp": "^0.35.3",
+    "tailwind-merge": "^3.6.0",
+    "zod": "^4.4.3"
   },
   "devDependencies": {
+    "@playwright/test": "^1.62.1",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
@@ -21,7 +40,9 @@
     "eslint": "^9",
     "eslint-config-next": "16.3.0",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "tsx": "^4.23.5",
+    "typescript": "^5",
+    "vitest": "^4.1.10"
   },
   "packageManager": "pnpm@11.20.0"
 }

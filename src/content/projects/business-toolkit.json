@@ -1,0 +1,69 @@
+{
+  "slug": "business-toolkit",
+  "title": {
+    "ru": "BusinessToolkit",
+    "en": "BusinessToolkit"
+  },
+  "kicker": {
+    "ru": "Веб-инструменты / Обработка файлов",
+    "en": "Web Tools / File Processing"
+  },
+  "summary": {
+    "ru": "Браузерные инструменты для сравнения, очистки и обработки рабочих файлов.",
+    "en": "Browser-based tools for comparing, cleaning and processing business files."
+  },
+  "description": {
+    "ru": "Автономное веб-приложение, работающее целиком на стороне клиента. Поддерживает работу с локальными файлами, пакетные операции и экспорт результатов в один клик.",
+    "en": "Standalone web application running entirely on the client side. Supports local files, batch operations, and single-click exporting."
+  },
+  "status": "live",
+  "presentation": "browser",
+  "year": 2025,
+  "order": 1,
+  "featured": true,
+  "published": true,
+  "showLive": true,
+  "liveMode": "full",
+  "liveUrl": "https://business-toolkit-alpha.vercel.app/",
+  "repoUrl": "",
+  "captureLive": true,
+  "stack": ["Next.js", "TypeScript", "Tailwind CSS", "Client-Side Processing", "Web Workers"],
+  "role": {
+    "ru": "Автор и единственный разработчик",
+    "en": "Author & Sole Developer"
+  },
+  "media": [
+    {
+      "type": "image",
+      "src": "/projects/business-toolkit/desktop.png",
+      "alt": {
+        "ru": "Интерфейс BusinessToolkit на Desktop",
+        "en": "BusinessToolkit desktop dashboard interface"
+      },
+      "aspectRatio": "16/10"
+    }
+  ],
+  "proof": {
+    "facts": {
+      "ru": [
+        "100% клиентская обработка файлов без отправки на сервер",
+        "Оптимизированная работа с большими объемами текстовых данных",
+        "Мгновенный старт работы без регистрации и авторизации"
+      ],
+      "en": [
+        "100% client-side file processing without external data transmission",
+        "Optimized batch operations for large document lists",
+        "Instant execution without sign-up or login requirements"
+      ]
+    },
+    "limitations": {
+      "ru": [
+        "Зависят от объема оперативной памяти браузера пользователя"
+      ],
+      "en": [
+        "Bound by browser available client RAM limits"
+      ]
+    }
+  },
+  "accent": "#2563EB"
+}

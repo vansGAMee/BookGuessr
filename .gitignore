@@ -12,6 +12,12 @@
 
 # testing
 /coverage
+/test-results
+/docs/baseline-screenshots
+
+# backups and temp
+/.backups
+/.temp
 
 # next.js
 /.next/

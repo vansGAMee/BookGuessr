@@ -1,0 +1,82 @@
+{
+  "slug": "mq-chess-profile-analyzer",
+  "title": {
+    "ru": "MQ-Chess Profile Analyzer",
+    "en": "MQ-Chess Profile Analyzer"
+  },
+  "kicker": {
+    "ru": "Frontend-анализатор профиля",
+    "en": "Frontend Profile Analyzer"
+  },
+  "summary": {
+    "ru": "Frontend-концепт анализатора полного шахматного профиля по нику игрока с авторской метрикой MQ-Chess.",
+    "en": "Frontend concept for a full chess profile analyzer powered by the original MQ-Chess Loss Index."
+  },
+  "description": {
+    "ru": "Интерфейс для глубокого исследования партий любого шахматиста. Визуализирует распределение ошибок, сравнивает метрику MQ-Chess с ACPL и выстраивает радарную диаграмму стилевых особенностей игрока.",
+    "en": "Interface for deep game analysis of any chess player by handle. Visualizes error distributions, compares MQ-Chess against ACPL, and plots player style radar metrics."
+  },
+  "status": "frontend-demo",
+  "presentation": "data",
+  "year": 2025,
+  "order": 3,
+  "featured": true,
+  "published": true,
+  "showLive": true,
+  "liveMode": "frontend-demo",
+  "availabilityNote": {
+    "ru": "Демонстрация интерфейса. Постоянный вычислительный backend сейчас не развёрнут.",
+    "en": "Interface demo. The compute-heavy backend is not continuously deployed."
+  },
+  "relatedProjects": [
+    "chess-insights"
+  ],
+  "liveUrl": "https://mq-chess-site.vercel.app/",
+  "repoUrl": "https://github.com/vansGAMee/MQ-Chess",
+  "captureLive": true,
+  "stack": [
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "Bklit Charts",
+    "Chess Analytics Engine"
+  ],
+  "role": {
+    "ru": "Frontend Architect & Author",
+    "en": "Frontend Architect & Author"
+  },
+  "media": [
+    {
+      "type": "image",
+      "src": "/projects/mq-chess-profile-analyzer/desktop.png",
+      "alt": {
+        "ru": "Аналитическая панель MQ-Chess Profile Analyzer",
+        "en": "MQ-Chess Profile Analyzer interface view"
+      },
+      "aspectRatio": "16/10"
+    }
+  ],
+  "proof": {
+    "facts": {
+      "ru": [
+        "Универсальный интерфейс анализа партий любого игрока по нику",
+        "График сравнения авторской метрики MQ-Chess с ACPL",
+        "Радарная диаграмма Player DNA для позиционной диагностики"
+      ],
+      "en": [
+        "Universal game analytics interface for any player handle",
+        "Comparative metric curve visualizing MQ-Chess vs ACPL",
+        "Player DNA radar chart for positional diagnostic profiling"
+      ]
+    },
+    "limitations": {
+      "ru": [
+        "Постоянный вычислительный движок временно приостановлен; отображаются демо-данные"
+      ],
+      "en": [
+        "Backend analysis compute engine is paused; static data preview active"
+      ]
+    }
+  },
+  "accent": "#6366F1"
+}

@@ -1,69 +1,65 @@
-import Image from "next/image";
+import { getPublishedProjects, getFunnelStats } from "@/lib/projects/loader";
+import { Header } from "@/components/layout/Header";
+import { Hero } from "@/components/layout/Hero";
+import { ProjectStage } from "@/components/projects/ProjectStage";
+import { ProjectIndex } from "@/components/projects/ProjectIndex";
+import { PortfolioFunnel } from "@/components/charts/PortfolioFunnel";
+import { About } from "@/components/layout/About";
+import { Contact } from "@/components/layout/Contact";
+import { Footer } from "@/components/layout/Footer";
+import { XRayProvider } from "@/components/experience/XRayContext";
+import { XRayLens } from "@/components/experience/XRayLens";
+import { MobileLayerDivider } from "@/components/experience/MobileLayerDivider";
+import { Metadata } from "next";
 
-export default function Home() {
+export const metadata: Metadata = {
+  title: "Ivan Kulkin (vansGAMee) — Developer Portfolio",
+  description: "Senior Frontend Developer, UI/UX Architect & Systems Engineer. Portfolio showcasing web products, data tools, and offline native applications.",
+  openGraph: {
+    title: "Ivan Kulkin (vansGAMee) — Developer Portfolio",
+    description: "Web products, data tools, and offline applications.",
+    url: "https://vansgamee.github.io/",
+    siteName: "VANSGAMEE / UNDER THE SURFACE",
+  },
+};
+
+export default function HomePage() {
+  const projects = getPublishedProjects();
+  const funnelStats = getFunnelStats(projects);
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+    <XRayProvider>
+      <div className="min-h-screen bg-[#F8F7F4] dark:bg-[#0B0D10] text-[#121316] dark:text-[#EDF1F7] selection:bg-blue-600 selection:text-white transition-colors duration-300">
+        <Header />
+        <XRayLens />
+        <MobileLayerDivider />
+
+        <main>
+          {/* Hero Screen */}
+          <Hero projects={projects} />
+
+          {/* Selected Work Stages */}
+          <section id="work" className="w-full">
+            {projects.map((project) => (
+              <ProjectStage key={project.slug} project={project} />
+            ))}
+          </section>
+
+          {/* All Projects Index */}
+          <ProjectIndex projects={projects} />
+
+          {/* About Section */}
+          <About />
+
+          {/* Portfolio Pipeline Funnel */}
+          <PortfolioFunnel stats={funnelStats} />
+
+          {/* Contact Section */}
+          <Contact />
+        </main>
+
+        <Footer />
+      </div>
+    </XRayProvider>
   );
 }

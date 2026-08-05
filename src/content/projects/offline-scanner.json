@@ -1,0 +1,66 @@
+{
+  "slug": "offline-scanner",
+  "title": {
+    "ru": "OfflineScanner",
+    "en": "OfflineScanner"
+  },
+  "kicker": {
+    "ru": "Android / Offline Data",
+    "en": "Android / Offline Data"
+  },
+  "summary": {
+    "ru": "Офлайн Android-приложение для поиска по локальному каталогу товаров.",
+    "en": "An offline Android application for searching a locally stored product catalog."
+  },
+  "description": {
+    "ru": "Мобильное решение для сбора и валидации штрихкодов и данных на объектах с нестабильной связью. Использует нативную производительность и системные компоненты.",
+    "en": "Mobile solution for scanning and validating barcode streams in low-connectivity locations. Leverages native performance and system APIs."
+  },
+  "status": "code-only",
+  "presentation": "phone",
+  "year": 2024,
+  "order": 5,
+  "featured": true,
+  "published": true,
+  "showLive": false,
+  "liveMode": "static",
+  "liveUrl": "",
+  "repoUrl": "https://github.com/vansGAMee/OfflineScanner",
+  "captureLive": false,
+  "stack": [
+    "Kotlin",
+    "Jetpack Compose",
+    "Android SDK",
+    "JNI",
+    "Rust Core"
+  ],
+  "role": {
+    "ru": "Android / Mobile Engineer",
+    "en": "Android / Mobile Engineer"
+  },
+  "media": [
+    {
+      "type": "image",
+      "src": "/projects/offline-scanner/offline-scanner-1785923270137-7e428cf2.png",
+      "alt": {
+        "ru": "Скриншот 626787371-e06cbf67-77db-4c0c-95e1-ea86e6c96bd0.png",
+        "en": "Screenshot 626787371-e06cbf67-77db-4c0c-95e1-ea86e6c96bd0.png"
+      }
+    }
+  ],
+  "proof": {
+    "facts": {
+      "ru": [
+        "Архитектура Offline-First для гарантированной сохранности данных",
+        "Нативный стек Kotlin + Jetpack Compose для плавной работы UI",
+        "Интеграция системных вызовов через JNI для высокоскоростного декодирования"
+      ],
+      "en": [
+        "Offline-First data model ensuring absolute local data integrity",
+        "Native Kotlin + Jetpack Compose UI stack for smooth 60 FPS performance",
+        "JNI native bindings for high-throughput scanning logic"
+      ]
+    }
+  },
+  "accent": "#7C3AED"
+}
