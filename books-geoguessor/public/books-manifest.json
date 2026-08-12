@@ -7,8 +7,8 @@
     "file": "crime-and-punishment.txt",
     "sourceName": "Викитека / Общественное достояние",
     "sourceUrl": "https://ru.wikisource.org/wiki/Преступление_и_наказание_(Достоевский)",
-    "charCount": 1105510,
-    "wordCount": 176851
+    "charCount": 1074115,
+    "wordCount": 175829
   },
   {
     "id": "fathers-and-sons",
@@ -18,8 +18,8 @@
     "file": "fathers-and-sons.txt",
     "sourceName": "Викитека / Общественное достояние",
     "sourceUrl": "https://ru.wikisource.org/wiki/Отцы_и_дети_(Тургенев)",
-    "charCount": 714369,
-    "wordCount": 115435
+    "charCount": 354507,
+    "wordCount": 57343
   },
   {
     "id": "hero-of-our-time",
@@ -29,8 +29,8 @@
     "file": "hero-of-our-time.txt",
     "sourceName": "Викитека / Общественное достояние",
     "sourceUrl": "https://ru.wikisource.org/wiki/Герой_нашего_времени_(Лермонтов)",
-    "charCount": 580770,
-    "wordCount": 92613
+    "charCount": 263699,
+    "wordCount": 43191
   },
   {
     "id": "captains-daughter",
@@ -40,8 +40,8 @@
     "file": "captains-daughter.txt",
     "sourceName": "Викитека / Общественное достояние",
     "sourceUrl": "https://ru.wikisource.org/wiki/Капитанская_дочка_(Пушкин)",
-    "charCount": 860544,
-    "wordCount": 131526
+    "charCount": 189918,
+    "wordCount": 30274
   },
   {
     "id": "dead-souls",
@@ -51,8 +51,8 @@
     "file": "dead-souls.txt",
     "sourceName": "Викитека / Общественное достояние",
     "sourceUrl": "https://ru.wikisource.org/wiki/Мёртвые_души_(Гоголь)",
-    "charCount": 741954,
-    "wordCount": 116752
+    "charCount": 491702,
+    "wordCount": 77417
   },
   {
     "id": "notes-from-underground",
@@ -62,8 +62,8 @@
     "file": "notes-from-underground.txt",
     "sourceName": "Викитека / Общественное достояние",
     "sourceUrl": "https://ru.wikisource.org/wiki/Записки_из_подполья_(Достоевский)",
-    "charCount": 456032,
-    "wordCount": 75049
+    "charCount": 213501,
+    "wordCount": 35494
   },
   {
     "id": "cherry-orchard",
@@ -73,8 +73,8 @@
     "file": "cherry-orchard.txt",
     "sourceName": "Викитека / Общественное достояние",
     "sourceUrl": "https://ru.wikisource.org/wiki/Вишнёвый_сад_(Чехов)",
-    "charCount": 182173,
-    "wordCount": 28011
+    "charCount": 60072,
+    "wordCount": 9801
   },
   {
     "id": "eugene-onegin",
@@ -83,8 +83,8 @@
     "year": "1833",
     "file": "eugene-onegin.txt",
     "sourceName": "Викитека / Общественное достояние",
-    "sourceUrl": "https://ru.wikisource.org/wiki/Евгений_Онегин_(Пушкин)",
-    "charCount": 317755,
-    "wordCount": 48563
+    "sourceUrl": "https://ru.wikisource.org/wiki/Евгений_Онегин_(Пушкин)/СС_1959_(СО)",
+    "charCount": 143043,
+    "wordCount": 23246
   }
 ]

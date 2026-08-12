@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "validate:corpus": "node scripts/validate_corpus.js",
+    "build": "node scripts/validate_corpus.js && tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
