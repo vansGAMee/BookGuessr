@@ -1,0 +1,90 @@
+[
+  {
+    "id": "crime-and-punishment",
+    "title": "Преступление и наказание",
+    "author": "Ф. М. Достоевский",
+    "year": "1866",
+    "file": "crime-and-punishment.txt",
+    "sourceName": "Викитека / Общественное достояние",
+    "sourceUrl": "https://ru.wikisource.org/wiki/Преступление_и_наказание_(Достоевский)",
+    "charCount": 1105510,
+    "wordCount": 176851
+  },
+  {
+    "id": "fathers-and-sons",
+    "title": "Отцы и дети",
+    "author": "И. С. Тургенев",
+    "year": "1862",
+    "file": "fathers-and-sons.txt",
+    "sourceName": "Викитека / Общественное достояние",
+    "sourceUrl": "https://ru.wikisource.org/wiki/Отцы_и_дети_(Тургенев)",
+    "charCount": 714369,
+    "wordCount": 115435
+  },
+  {
+    "id": "hero-of-our-time",
+    "title": "Герой нашего времени",
+    "author": "М. Ю. Лермонтов",
+    "year": "1840",
+    "file": "hero-of-our-time.txt",
+    "sourceName": "Викитека / Общественное достояние",
+    "sourceUrl": "https://ru.wikisource.org/wiki/Герой_нашего_времени_(Лермонтов)",
+    "charCount": 580770,
+    "wordCount": 92613
+  },
+  {
+    "id": "captains-daughter",
+    "title": "Капитанская дочка",
+    "author": "А. С. Пушкин",
+    "year": "1836",
+    "file": "captains-daughter.txt",
+    "sourceName": "Викитека / Общественное достояние",
+    "sourceUrl": "https://ru.wikisource.org/wiki/Капитанская_дочка_(Пушкин)",
+    "charCount": 860544,
+    "wordCount": 131526
+  },
+  {
+    "id": "dead-souls",
+    "title": "Мёртвые души",
+    "author": "Н. В. Гоголь",
+    "year": "1842",
+    "file": "dead-souls.txt",
+    "sourceName": "Викитека / Общественное достояние",
+    "sourceUrl": "https://ru.wikisource.org/wiki/Мёртвые_души_(Гоголь)",
+    "charCount": 741954,
+    "wordCount": 116752
+  },
+  {
+    "id": "notes-from-underground",
+    "title": "Записки из подполья",
+    "author": "Ф. М. Достоевский",
+    "year": "1864",
+    "file": "notes-from-underground.txt",
+    "sourceName": "Викитека / Общественное достояние",
+    "sourceUrl": "https://ru.wikisource.org/wiki/Записки_из_подполья_(Достоевский)",
+    "charCount": 456032,
+    "wordCount": 75049
+  },
+  {
+    "id": "cherry-orchard",
+    "title": "Вишнёвый сад",
+    "author": "А. П. Чехов",
+    "year": "1903",
+    "file": "cherry-orchard.txt",
+    "sourceName": "Викитека / Общественное достояние",
+    "sourceUrl": "https://ru.wikisource.org/wiki/Вишнёвый_сад_(Чехов)",
+    "charCount": 182173,
+    "wordCount": 28011
+  },
+  {
+    "id": "eugene-onegin",
+    "title": "Евгений Онегин",
+    "author": "А. С. Пушкин",
+    "year": "1833",
+    "file": "eugene-onegin.txt",
+    "sourceName": "Викитека / Общественное достояние",
+    "sourceUrl": "https://ru.wikisource.org/wiki/Евгений_Онегин_(Пушкин)",
+    "charCount": 317755,
+    "wordCount": 48563
+  }
+]
